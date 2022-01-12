@@ -13,7 +13,7 @@ body {
     display: flex;
 }
 
-.header {
+.header, .sec1 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -39,4 +39,23 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.sec-left,
+.sec-right {
+    flex: 1 1 0;
+    background-color: #1f2937;
+}
+
+.sec-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-left .text {
+    margin: 0px;
+}
+
+button {
+    max-width: 100px;
 }
