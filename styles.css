@@ -57,7 +57,11 @@ a {
 }
 
 button {
-    max-width: 100px;
+    max-width: 150px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 3px;
+    border: 2px solid #3882f6;
 }
 
 .sec1 {
