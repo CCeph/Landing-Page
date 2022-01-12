@@ -34,3 +34,9 @@ ul {
     padding: 0px;
     
 }
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
