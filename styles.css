@@ -6,7 +6,6 @@ body {
 
 .header,
 .sec1,
-.sec2,
 .sec3,
 .sec4,
 .footer {
@@ -86,4 +85,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sec2 .container {
+    display: flex;
+    text-align: center;
+}
+
+.sec2 h3 {
+    text-align: center;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
 }
