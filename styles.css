@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.footer {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+    
+}
