@@ -13,7 +13,7 @@ body {
     display: flex;
 }
 
-.header, .sec1 {
+.header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -44,7 +44,7 @@ a {
 .sec-left,
 .sec-right {
     flex: 1 1 0;
-    background-color: #1f2937;
+    
 }
 
 .sec-left {
@@ -58,4 +58,16 @@ a {
 
 button {
     max-width: 100px;
+}
+
+.sec1 {
+    padding: 30px;
+    background-color: #1f2937;
+}
+
+.sec-left .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
 }
