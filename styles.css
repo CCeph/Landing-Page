@@ -80,3 +80,10 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.sec-right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
