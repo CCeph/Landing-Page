@@ -96,7 +96,15 @@ button {
     text-align: center;
 }
 
-.container img {
-    width: 200px;
-    height: 200px;
+.image {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;
+    border-radius: 7px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
