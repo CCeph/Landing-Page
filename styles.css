@@ -186,7 +186,15 @@ button {
     color: #F9FAF8;
 }
 
-.icontainer .imiddle {
+.sec4 .imiddle {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.footer {
+    background-color: #1f2937;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 14px;
+    align-items: center;
 }
