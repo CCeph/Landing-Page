@@ -16,14 +16,14 @@ body {
 
 .imiddle {
     flex: 2 1 auto;
-    width: 800px;
+    max-width: 1300px;
+    padding: 10px 30px;
 }
 
 .header .imiddle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     background-color: #1f2937;
     flex: 2 1 auto;
 }
@@ -79,8 +79,8 @@ button {
 
 .sec1 .imiddle {
     display: flex;
-    padding: 30px;
     background-color: #1f2937;
+    gap: 20px;
 }
 
 .sec1 .ileft, .sec1 .iright {
@@ -130,7 +130,6 @@ button {
 
 .sec3 .imiddle {
     background-color: #E5E7EB;
-
 }
 .sec3 .ileft, .sec3 .iright {
     background-color: #E5E7EB;
