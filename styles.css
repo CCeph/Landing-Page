@@ -8,14 +8,21 @@ body {
 .sec1,
 .sec3,
 .sec4,
-.footer {
+.footer,
+.imiddle {
     display: flex;
 }
 
-.header {
+.header .imiddle {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: #1f2937;
+    flex: 5 1 auto;
+}
+
+.header .ileft, .iright {
+    flex: 1 1 auto;
     background-color: #1f2937;
 }
 
@@ -111,5 +118,5 @@ button {
 
 .sec3 {
     background-color: #E5E7EB;
-    
+
 }
