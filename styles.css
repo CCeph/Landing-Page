@@ -152,3 +152,41 @@ button {
     font-weight: bold;
     padding-right: 40px;
 }
+
+.box {
+    background-color: #3882f6;
+    border-radius: 7px;
+    display: flex;
+    padding: 30px 50px;
+}
+
+.box .text {
+    color: #F9FAF8;
+}
+
+.text .bold {
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.text p {
+    margin: 0px;
+}
+
+.box .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.box button {
+    border: 2px solid #F9FAF8;
+    padding: 2px 20px;
+    color: #F9FAF8;
+}
+
+.icontainer .imiddle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
