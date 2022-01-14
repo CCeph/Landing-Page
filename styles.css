@@ -82,6 +82,8 @@ button {
     display: flex;
     background-color: #1f2937;
     gap: 20px;
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 .sec1 .ileft, .sec1 .iright {
